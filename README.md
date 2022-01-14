@@ -1,2 +1,2 @@
-# personal-portfolio
+# Personal Portfolio
 Personal Website from Scratch Using...
