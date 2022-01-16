@@ -1,2 +1,6 @@
 # Personal Portfolio
-Personal Website from Scratch Using...
+### Personal Project
+
+## Languages
+* HTML5
+* CSS3
