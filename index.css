@@ -68,7 +68,10 @@ a {
   justify-content: center;
 }
 
-#about-content {
+#about-content,
+#experience-content,
+#projects-content,
+#skills-content {
   /* background-color: #dbe2ef; */
 
   max-width: 60%;
@@ -83,11 +86,17 @@ a {
   margin: 0;
 }
 
-#about-description {
+#about-description,
+#experience-description,
+#projects-description,
+#skills-description {
   padding: 2%;
 }
 
-#about-title {
+#about-title,
+#experience-title,
+#projects-title,
+#skills-title {
   padding-bottom: 5%;
 }
 
@@ -95,9 +104,14 @@ a {
   padding-bottom: 5%;
 }
 
-/* #icon-buttons {
-  padding: 5px;
-} */
+#experience-intro {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#experience-text {
+  padding-top: 2%;
+}
 
 #body-link {
   color: #3f72af;
@@ -115,5 +129,4 @@ a {
 
 #navigation-link:hover {
   color: black;
-  padding: 5px;
 }
