@@ -35,16 +35,13 @@ body {
   padding: 5px;
 }
 
-#header-navigation {
-  color: #dbe2ef;
-}
-
 #footer {
   background-color: #3f72af;
   color: #f9f7f7;
   width: 100%;
   height: 5%;
   display: flex;
+  flex-direction: row;
   align-items: center;
   z-index: 1;
 }
@@ -67,7 +64,6 @@ a {
   width: 100%;
   position: relative;
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
 }
@@ -99,10 +95,25 @@ a {
   padding-bottom: 5%;
 }
 
-#about-buttons {
-  padding-bottom: 5%;
+/* #icon-buttons {
+  padding: 5px;
+} */
+
+#body-link {
+  color: #3f72af;
+  transition: color 0.25s ease-out;
 }
 
-#special-link {
-  color: #3f72af;
+#body-link:hover {
+  color: black;
+}
+
+#navigation-link {
+  color: #f9f7f7;
+  transition: color 0.25s ease-out;
+}
+
+#navigation-link:hover {
+  color: black;
+  padding: 5px;
 }
