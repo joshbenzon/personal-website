@@ -1,10 +1,51 @@
+/* FONTS */
 @font-face {
-  font-family: Inter;
+  font-family: Inter-Thin;
+  src: local(Inter), url("./fonts/Inter-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Inter-ExtraLight;
+  src: local(Inter), url("./fonts/Inter-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Inter-Light;
+  src: local(Inter), url("./fonts/Inter-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Inter-Regular;
   src: local(Inter), url("./fonts/Inter-Regular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: Inter-Medium;
+  src: local(Inter), url("./fonts/Inter-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Inter-SemiBold;
+  src: local(Inter), url("./fonts/Inter-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Inter-Bold;
+  src: local(Inter), url("./fonts/Inter-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Inter-ExtraBold;
+  src: local(Inter), url("./fonts/Inter-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Inter-Black;
+  src: local(Inter), url("./fonts/Inter-Black.ttf") format("truetype");
+}
+
 * {
-  font-family: Inter, serif;
+  font-family: Inter-Regular, serif;
   scroll-behavior: smooth;
   margin: 0%;
   padding: 0%;
@@ -18,7 +59,7 @@ body {
 }
 
 header {
-  background: rgba(249, 247, 247, 0.8);
+  background: rgba(249, 247, 247, 0.875);
   width: 100%;
   height: 5%;
   display: flex;
@@ -36,20 +77,67 @@ footer {
   text-align: center;
 }
 
+/* SECTION TITLE */
+h1 {
+  font-family: Inter-SemiBold, serif;
+  font-size: xx-large;
+}
+
+/* SECTION POSITION */
+h2 {
+  font-family: Inter-Medium, serif;
+  font-size: x-large;
+}
+
+/* SECTION COMPANY */
+h3 {
+  font-family: Inter-Regular, serif;
+  font-size: larger;
+}
+
+/* SECTION TIME */
+h4 {
+  font-family: Inter-Regular, serif;
+  font-size: large;
+}
+
+/* SECTION DESCRIPTION */
+p {
+  font-family: Inter-Regular, serif;
+  font-size: medium;
+}
+
 a {
   color: black;
   text-decoration: none;
 }
 
 #header-section {
-  padding: 5px;
+  padding: 10px;
 }
 
 #icon-buttons {
   float: right;
 }
 
+/* FLOATING IMAGE: https://blog.hubspot.com/website/css-animation-examples */
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-15px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+
 #logo {
+  animation: float 5s ease-in-out infinite;
   height: 450px;
   width: auto;
 }
@@ -70,7 +158,7 @@ a {
 #experience-title,
 #projects-title,
 #skills-title {
-  border: 1px solid #3f72af;
+  /* border: 1px solid #3f72af; */
   padding: 0;
 }
 
@@ -120,6 +208,10 @@ a {
 #skills-text {
   padding-top: 2%;
   /* width: 100%; */
+}
+
+#icon-pic {
+  color: #3f72af;
 }
 
 #navigation-link {
