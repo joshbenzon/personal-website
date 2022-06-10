@@ -73,6 +73,7 @@ header {
 
   display: flex;
   justify-content: center;
+  /* justify-content: space-between; */
   text-align: center;
 
   position: fixed;
@@ -163,7 +164,7 @@ a {
   }
 }
 
-#logo {
+#picture {
   /* animation: float 5s ease-in-out infinite; */
   box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.5);
 
