@@ -1,4 +1,3 @@
-/* FONTS */
 @font-face {
   font-family: Inter-Thin;
   src: local(Inter), url("./fonts/Inter-Thin.ttf") format("truetype");
@@ -45,70 +44,79 @@
 }
 
 * {
-  font-family: Inter-Regular, serif;
+  font-family: Inter-Regular, Arial, Helvetica, sans-serif;
   scroll-behavior: smooth;
+
   margin: 0%;
   padding: 0%;
 }
 
 body {
-  /* background-color: #112d4e; */
-  /* background-color: #3f72af; */
-  /* background-color: #dbe2ef; */
+  /* DARK BLUE */
+  background-color: #112d4e;
+
+  /* BLUE */
+  background-color: #3f72af;
+
+  /* LIGHT BLUE */
+  background-color: #dbe2ef;
+
+  /* WHITE */
   background-color: #f9f7f7;
 }
 
 header {
   background: rgba(249, 247, 247, 0.875);
+
   width: 100%;
   height: 5%;
+
   display: flex;
-  /* justify-content: flex-end; */
   justify-content: center;
-  align-items: center;
+  text-align: center;
+
   position: fixed;
   z-index: 1;
 }
 
 footer {
+  background: rgba(249, 247, 247, 0.875);
   color: #3f72af;
+
   width: 100%;
   height: 5%;
+
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
 
-/* SECTION TITLE */
 h1 {
-  font-family: Inter-SemiBold, serif;
+  font-family: Inter-SemiBold, Arial, Helvetica, sans-serif;
   font-size: xx-large;
 }
 
-/* SECTION POSITION */
 h2 {
-  font-family: Inter-Medium, serif;
+  font-family: Inter-Medium, Arial, Helvetica, sans-serif;
   font-size: x-large;
 }
 
-/* SECTION COMPANY */
 h3 {
-  font-family: Inter-Regular, serif;
+  font-family: Inter-Regular, Arial, Helvetica, sans-serif;
   font-size: larger;
 }
 
-/* SECTION TIME */
 h4 {
-  font-family: Inter-Regular, serif;
+  font-family: Inter-Regular, Arial, Helvetica, sans-serif;
   font-size: large;
 }
 
-/* SECTION DESCRIPTION */
 p {
-  font-family: Inter-Regular, serif;
+  font-family: Inter-Regular, Arial, Helvetica, sans-serif;
   font-size: medium;
 }
 
 a {
-  color: black;
   text-decoration: none;
 }
 
@@ -116,20 +124,39 @@ a {
   padding: 10px;
 }
 
-#icon-buttons {
+#icon-pic {
+  color: #3f72af;
+}
+
+#all-buttons {
+  padding-top: 5%;
+}
+
+#social-buttons {
   float: right;
 }
 
-/* FLOATING IMAGE: https://blog.hubspot.com/website/css-animation-examples */
+#navigation-link {
+  color: #3f72af;
+  transition: color 0.25s ease-out;
+}
+
+#navigation-link:hover {
+  color: black;
+}
+
+/* https://blog.hubspot.com/website/css-animation-examples */
 @keyframes float {
   0% {
     box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
     transform: translatey(0px);
   }
+
   50% {
     box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
     transform: translatey(-15px);
   }
+
   100% {
     box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
     transform: translatey(0px);
@@ -137,7 +164,9 @@ a {
 }
 
 #logo {
-  animation: float 5s ease-in-out infinite;
+  /* animation: float 5s ease-in-out infinite; */
+  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.5);
+
   height: 450px;
   width: auto;
 }
@@ -148,18 +177,12 @@ a {
 #skills {
   height: 100%;
   width: 100%;
+
   position: relative;
   display: flex;
+
   align-items: center;
   justify-content: center;
-}
-
-#about-title,
-#experience-title,
-#projects-title,
-#skills-title {
-  /* border: 1px solid #3f72af; */
-  padding: 0;
 }
 
 #about-content,
@@ -168,57 +191,40 @@ a {
 #skills-content {
   width: 60%;
   height: 60%;
-  max-width: 60%;
-  min-height: 60%;
-  min-width: 30%;
-  min-height: 30%;
+  padding: 2.5%;
 
+  position: relative;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+
   align-items: center;
-  margin: 0;
+  justify-content: center;
 }
 
 #about-description,
 #experience-description,
 #projects-description,
 #skills-description {
-  padding: 2%;
+  padding: 5%;
 }
 
 #about-title,
-#about-intro,
 #experience-title,
 #projects-title,
 #skills-title {
   padding-bottom: 5%;
 }
 
-#experience-intro,
-#projects-intro,
-#skills-intro {
-  padding-top: 2%;
-  padding-bottom: 2%;
-  width: 100%;
-}
-
+#about-text,
 #experience-text,
 #projects-text,
 #skills-text {
-  padding-top: 2%;
-  /* width: 100%; */
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
 }
 
-#icon-pic {
-  color: #3f72af;
-}
-
-#navigation-link {
-  color: #3f72af;
-  transition: color 0.25s ease-out;
-}
-
-#navigation-link:hover {
-  color: black;
+#about-inner,
+#experience-inner,
+#projects-inner,
+#skills-inner {
+  padding-bottom: 0.5%;
 }
