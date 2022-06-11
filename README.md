@@ -2,10 +2,12 @@
 
 Personal Website from Scratch Using Vanilla HTML/CSS
 
+## To-Do
+
 - [x] Outline
 - [x] Prototype (Figma)
 - [x] Layout
-- [ ] Descriptions
+- [x] Descriptions
 - [ ] Demos
 - [ ] Pictures (with Alternative Text)
 - [ ] Mobile Version
