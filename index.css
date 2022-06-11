@@ -73,7 +73,6 @@ header {
 
   display: flex;
   justify-content: center;
-  /* justify-content: space-between; */
   text-align: center;
 
   position: fixed;
@@ -205,7 +204,7 @@ a {
 #experience-description,
 #projects-description,
 #skills-description {
-  padding: 5%;
+  padding: 2.5%;
 }
 
 #about-title,
