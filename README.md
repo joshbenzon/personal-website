@@ -8,8 +8,8 @@ Personal Website from Scratch Using Vanilla HTML/CSS
 - [x] Prototype (Figma)
 - [x] Layout
 - [x] Descriptions
-- [ ] Demos
-- [ ] Pictures (with Alternative Text)
+- [x] Demos (Skip!)
+- [x] Pictures (with Alternative Text)
 - [ ] Mobile Version
 - [ ] CName
 - [ ] Launch!
