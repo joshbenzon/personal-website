@@ -146,10 +146,13 @@ a {
 }
 
 #picture {
-  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.3);
 
   height: 450px;
   width: auto;
+
+  margin-top: 7.5%;
+  margin-bottom: 7.5%;
 }
 
 #about,
@@ -158,6 +161,8 @@ a {
 #skills {
   height: 100%;
   width: 100%;
+
+  padding-bottom: 2.5%;
 
   position: relative;
   display: flex;
@@ -174,6 +179,7 @@ a {
   height: 60%;
   padding: 2.5%;
 
+  flex-direction: row;
   position: relative;
   display: flex;
 
@@ -209,3 +215,258 @@ a {
 #skills-inner {
   padding-bottom: 0.5%;
 }
+
+/* MINI DESKTOP VERSION 1.0 */
+@media screen and (max-width: 1200px) {
+  #picture {
+    height: 400px;
+    width: auto;
+  }
+
+  #about-content,
+  #experience-content,
+  #projects-content,
+  #skills-content {
+    width: 70%;
+    height: 70%;
+  }
+
+  h1 {
+    font-size: xx-large;
+  }
+
+  h2 {
+    font-size: x-large;
+  }
+
+  h3 {
+    font-size: larger;
+  }
+
+  h4 {
+    font-size: large;
+  }
+
+  p {
+    font-size: medium;
+  }
+}
+
+/* MINI DESKTOP VERSION 2.0 */
+@media screen and (max-width: 1000px) {
+  #picture {
+    height: 350px;
+    width: auto;
+  }
+
+  #about-content,
+  #experience-content,
+  #projects-content,
+  #skills-content {
+    width: 80%;
+    height: 80%;
+  }
+
+  h1 {
+    font-size: xx-large;
+  }
+
+  h2 {
+    font-size: x-large;
+  }
+
+  h3 {
+    font-size: larger;
+  }
+
+  h4 {
+    font-size: large;
+  }
+
+  p {
+    font-size: medium;
+  }
+}
+
+/* MINI DESKTOP VERSION 3.0 */
+@media screen and (max-width: 800px) {
+  #picture {
+    height: 350px;
+    width: auto;
+  }
+
+  #about-content,
+  #experience-content,
+  #projects-content,
+  #skills-content {
+    width: 80%;
+    height: 80%;
+  }
+
+  h1 {
+    font-size: x-large;
+  }
+
+  h2 {
+    font-size: larger;
+  }
+
+  h3 {
+    font-size: large;
+  }
+
+  h4 {
+    font-size: medium;
+  }
+
+  p {
+    font-size: medium;
+  }
+}
+
+/* MINI DESKTOP VERSION 4.0 */
+@media screen and (max-width: 700px) {
+  #picture {
+    height: 300px;
+    width: auto;
+  }
+
+  #about-content,
+  #experience-content,
+  #projects-content,
+  #skills-content {
+    width: 80%;
+    height: 80%;
+  }
+
+  #about-content,
+  #projects-content {
+    flex-direction: column;
+  }
+
+  #experience-content,
+  #skills-content {
+    flex-direction: column-reverse;
+  }
+
+  h1 {
+    font-size: x-large;
+  }
+
+  h2 {
+    font-size: larger;
+  }
+
+  h3 {
+    font-size: large;
+  }
+
+  h4 {
+    font-size: medium;
+  }
+
+  p {
+    font-size: medium;
+  }
+}
+
+/* MOBILE VERSION 1.0 */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #picture {
+    height: 300px;
+    width: auto;
+  }
+
+  #about-content,
+  #experience-content,
+  #projects-content,
+  #skills-content {
+    width: 80%;
+    height: 80%;
+  }
+
+  #about-content,
+  #projects-content {
+    flex-direction: column;
+  }
+
+  #experience-content,
+  #skills-content {
+    flex-direction: column-reverse;
+  }
+
+  h1 {
+    font-size: large;
+  }
+
+  h2 {
+    font-size: medium;
+  }
+
+  h3 {
+    font-size: small;
+  }
+
+  h4 {
+    font-size: small;
+  }
+
+  p {
+    font-size: small;
+  }
+}
+
+/* MOBILE VERSION 2.0 */
+/* @media (orientation: landscape) {
+  #picture {
+    height: 300px;
+    width: auto;
+  }
+
+  #header-section {
+    padding: 5px;
+  }
+
+  header {
+    height: 7.5%;
+  }
+
+  footer {
+    height: 7.5%;
+  }
+
+  #about,
+  #experience,
+  #projects,
+  #skills {
+    padding-bottom: 2.5%;
+  }
+
+  #about-content,
+  #experience-content,
+  #projects-content,
+  #skills-content {
+    width: 80%;
+    height: 80%;
+  }
+
+  h1 {
+    font-size: large;
+  }
+
+  h2 {
+    font-size: medium;
+  }
+
+  h3 {
+    font-size: small;
+  }
+
+  h4 {
+    font-size: small;
+  }
+
+  p {
+    font-size: small;
+  }
+} */
