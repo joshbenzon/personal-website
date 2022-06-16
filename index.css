@@ -1,47 +1,55 @@
 @font-face {
   font-family: Inter-Thin;
-  src: local(Inter), url("./fonts/Inter-Thin.ttf") format("truetype");
+  src: local(Inter-Thin), url("./fonts/Inter-Thin.ttf") format("truetype");
 }
 
 @font-face {
   font-family: Inter-ExtraLight;
-  src: local(Inter), url("./fonts/Inter-ExtraLight.ttf") format("truetype");
+  src: local(Inter-ExtraLight),
+    url("./fonts/Inter-ExtraLight.ttf") format("truetype");
 }
 
 @font-face {
   font-family: Inter-Light;
-  src: local(Inter), url("./fonts/Inter-Light.ttf") format("truetype");
+  src: local(Inter-Light), url("./fonts/Inter-Light.ttf") format("truetype");
 }
 
 @font-face {
   font-family: Inter-Regular;
-  src: local(Inter), url("./fonts/Inter-Regular.ttf") format("truetype");
+  src: local(Inter-Regular), url("./fonts/Inter-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: Inter-Medium;
-  src: local(Inter), url("./fonts/Inter-Medium.ttf") format("truetype");
+  src: local(Inter-Medium), url("./fonts/Inter-Medium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: Inter-SemiBold;
-  src: local(Inter), url("./fonts/Inter-SemiBold.ttf") format("truetype");
+  src: local(Inter-SemiBold),
+    url("./fonts/Inter-SemiBold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: Inter-Bold;
-  src: local(Inter), url("./fonts/Inter-Bold.ttf") format("truetype");
+  src: local(Inter-Bold), url("./fonts/Inter-Bold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: Inter-ExtraBold;
-  src: local(Inter), url("./fonts/Inter-ExtraBold.ttf") format("truetype");
+  src: local(Inter-ExtraBold),
+    url("./fonts/Inter-ExtraBold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: Inter-Black;
-  src: local(Inter), url("./fonts/Inter-Black.ttf") format("truetype");
+  src: local(Inter-Black), url("./fonts/Inter-Black.ttf") format("truetype");
 }
+
+/* @font-face {
+  font-family: NotoSans-Regular;
+  src: local(NotoSans-Regular), url("./fonts/Inter-Black.ttf") format("truetype");
+} */
 
 * {
   font-family: Inter-Regular, Arial, Helvetica, sans-serif;
@@ -95,7 +103,7 @@ footer {
   text-align: center;
 }
 
-/* h1 {
+h1 {
   font-family: Inter-SemiBold, Arial, Helvetica, sans-serif;
   font-size: xx-large;
 }
@@ -118,7 +126,7 @@ h4 {
 p {
   font-family: Inter-Regular, Arial, Helvetica, sans-serif;
   font-size: medium;
-} */
+}
 
 a {
   text-decoration: none;
