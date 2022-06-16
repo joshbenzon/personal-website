@@ -265,7 +265,7 @@ a {
 /* MINI DESKTOP VERSION 2.0 */
 @media screen and (max-width: 1000px) {
   #picture {
-    height: 400px;
+    height: 350px;
     width: auto;
   }
 
@@ -305,7 +305,7 @@ a {
 /* MINI DESKTOP VERSION 3.0 */
 @media screen and (max-width: 800px) {
   #picture {
-    height: 350px;
+    height: 300px;
     width: auto;
   }
 
@@ -345,7 +345,7 @@ a {
 /* MINI DESKTOP VERSION 4.0 */
 @media screen and (max-width: 700px) {
   #picture {
-    height: 350px;
+    height: 300px;
     width: auto;
   }
 
@@ -395,7 +395,7 @@ a {
 /* MOBILE VERSION */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   #picture {
-    height: 300px;
+    height: 250px;
     width: auto;
   }
 
@@ -418,8 +418,8 @@ a {
   }
 
   * {
-    /* letter-spacing: normal; */
-    letter-spacing: -0.25px;
+    letter-spacing: normal;
+    /* letter-spacing: -0.25px; */
   }
 
   h1 {
