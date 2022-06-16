@@ -46,13 +46,15 @@
   src: local(Inter-Black), url("./fonts/Inter-Black.ttf") format("truetype");
 }
 
-/* @font-face {
+@font-face {
   font-family: NotoSans-Regular;
-  src: local(NotoSans-Regular), url("./fonts/Inter-Black.ttf") format("truetype");
-} */
+  src: local(NotoSans-Regular),
+    url("./fonts/NotoSans-Regular.ttf") format("truetype");
+}
 
 * {
-  font-family: Inter-Regular, Arial, Helvetica, sans-serif;
+  /* font-family: Inter-Regular, Arial, Helvetica, sans-serif; */
+  font-family: NotoSans-Regular, Arial, Helvetica, sans-serif;
   letter-spacing: normal;
 
   scroll-behavior: smooth;
@@ -104,27 +106,27 @@ footer {
 }
 
 h1 {
-  font-family: Inter-SemiBold, Arial, Helvetica, sans-serif;
+  /* font-family: Inter-SemiBold, Arial, Helvetica, sans-serif; */
   font-size: xx-large;
 }
 
 h2 {
-  font-family: Inter-Medium, Arial, Helvetica, sans-serif;
+  /* font-family: Inter-Medium, Arial, Helvetica, sans-serif; */
   font-size: x-large;
 }
 
 h3 {
-  font-family: Inter-Regular, Arial, Helvetica, sans-serif;
+  /* font-family: Inter-Regular, Arial, Helvetica, sans-serif; */
   font-size: larger;
 }
 
 h4 {
-  font-family: Inter-Regular, Arial, Helvetica, sans-serif;
+  /* font-family: Inter-Regular, Arial, Helvetica, sans-serif; */
   font-size: large;
 }
 
 p {
-  font-family: Inter-Regular, Arial, Helvetica, sans-serif;
+  /* font-family: Inter-Regular, Arial, Helvetica, sans-serif; */
   font-size: medium;
 }
 
