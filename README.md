@@ -10,6 +10,6 @@ Personal Website from Scratch Using Vanilla HTML/CSS
 - [x] Descriptions
 - [x] Demos (Skip!)
 - [x] Pictures (with Alternative Text)
-- [ ] Mobile Version
-- [ ] CName
+- [x] Mobile Version
+- [x] CName
 - [ ] Launch!

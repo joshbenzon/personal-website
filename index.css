@@ -370,7 +370,7 @@ a {
   }
 }
 
-/* MOBILE VERSION 1.0 */
+/* MOBILE VERSION */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   #picture {
     height: 300px;
@@ -415,58 +415,3 @@ a {
     font-size: small;
   }
 }
-
-/* MOBILE VERSION 2.0 */
-/* @media (orientation: landscape) {
-  #picture {
-    height: 300px;
-    width: auto;
-  }
-
-  #header-section {
-    padding: 5px;
-  }
-
-  header {
-    height: 7.5%;
-  }
-
-  footer {
-    height: 7.5%;
-  }
-
-  #about,
-  #experience,
-  #projects,
-  #skills {
-    padding-bottom: 2.5%;
-  }
-
-  #about-content,
-  #experience-content,
-  #projects-content,
-  #skills-content {
-    width: 80%;
-    height: 80%;
-  }
-
-  h1 {
-    font-size: large;
-  }
-
-  h2 {
-    font-size: medium;
-  }
-
-  h3 {
-    font-size: small;
-  }
-
-  h4 {
-    font-size: small;
-  }
-
-  p {
-    font-size: small;
-  }
-} */
