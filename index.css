@@ -92,28 +92,28 @@ footer {
 }
 
 h1 {
-  /* font-family: Inter-SemiBold, Arial, Helvetica, sans-serif; */
-  font-size: xx-large;
+  font-family: Inter-SemiBold, Arial, Helvetica, sans-serif;
+  /* font-size: xx-large; */
 }
 
 h2 {
-  /* font-family: Inter-Medium, Arial, Helvetica, sans-serif; */
-  font-size: x-large;
+  font-family: Inter-Medium, Arial, Helvetica, sans-serif;
+  /* font-size: x-large; */
 }
 
 h3 {
-  /* font-family: Inter-Regular, Arial, Helvetica, sans-serif; */
-  font-size: larger;
+  font-family: Inter-Regular, Arial, Helvetica, sans-serif;
+  /* font-size: larger; */
 }
 
 h4 {
-  /* font-family: Inter-Regular, Arial, Helvetica, sans-serif; */
-  font-size: large;
+  font-family: Inter-Regular, Arial, Helvetica, sans-serif;
+  /* font-size: large; */
 }
 
 p {
-  /* font-family: Inter-Regular, Arial, Helvetica, sans-serif; */
-  font-size: medium;
+  font-family: Inter-Regular, Arial, Helvetica, sans-serif;
+  /* font-size: medium; */
 }
 
 a {
