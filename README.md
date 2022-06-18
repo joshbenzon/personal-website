@@ -1,15 +1,6 @@
-# Personal Portfolio
+# Josh Benzon | Personal Website
 
-Personal Website from Scratch Using Vanilla HTML/CSS
+_Written in Vanilla HTML/CS_
+_Deployed with GitHub Pages_
 
-## To-Do
-
-- [x] Outline
-- [x] Prototype (Figma)
-- [x] Layout
-- [x] Descriptions
-- [x] Demos (Skip!)
-- [x] Pictures (with Alternative Text)
-- [x] Mobile Version
-- [x] CName
-- [ ] Launch!
+**Check It Out!:** [joshbenzon.me](https://joshbenzon.me/)

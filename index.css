@@ -80,9 +80,6 @@ header {
   display: flex;
   justify-content: center;
   text-align: center;
-
-  /* position: fixed; */
-  z-index: 1;
 }
 
 footer {
@@ -167,11 +164,6 @@ a {
 #experience,
 #projects,
 #skills {
-  /* height: 100%;
-  width: 100%; */
-
-  /* padding-bottom: 2.5%; */
-
   position: relative;
   display: flex;
 
@@ -238,30 +230,6 @@ a {
     width: 70%;
     height: 70%;
   }
-
-  * {
-    letter-spacing: normal;
-  }
-
-  h1 {
-    font-size: xx-large;
-  }
-
-  h2 {
-    font-size: x-large;
-  }
-
-  h3 {
-    font-size: larger;
-  }
-
-  h4 {
-    font-size: large;
-  }
-
-  p {
-    font-size: large;
-  }
 }
 
 /* MINI DESKTOP VERSION 2.0 */
@@ -278,30 +246,6 @@ a {
     width: 80%;
     height: 80%;
   }
-
-  * {
-    letter-spacing: normal;
-  }
-
-  h1 {
-    font-size: xx-large;
-  }
-
-  h2 {
-    font-size: x-large;
-  }
-
-  h3 {
-    font-size: larger;
-  }
-
-  h4 {
-    font-size: large;
-  }
-
-  p {
-    font-size: large;
-  }
 }
 
 /* MINI DESKTOP VERSION 3.0 */
@@ -317,10 +261,6 @@ a {
   #skills-content {
     width: 80%;
     height: 80%;
-  }
-
-  * {
-    letter-spacing: normal;
   }
 
   h1 {
@@ -369,10 +309,6 @@ a {
     flex-direction: column-reverse;
   }
 
-  * {
-    letter-spacing: normal;
-  }
-
   h1 {
     font-size: x-large;
   }
@@ -417,11 +353,6 @@ a {
   #experience-content,
   #skills-content {
     flex-direction: column-reverse;
-  }
-
-  * {
-    letter-spacing: normal;
-    /* letter-spacing: -0.25px; */
   }
 
   h1 {
