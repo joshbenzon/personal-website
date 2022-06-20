@@ -95,24 +95,28 @@ footer {
   text-align: center;
 }
 
-.h1 {
+h1 {
   font-family: Inter-SemiBold, Arial, Helvetica, sans-serif;
   font-size: xx-large;
+  font-style: normal;
 }
 
-.h2 {
+h2 {
   font-family: Inter-Medium, Arial, Helvetica, sans-serif;
   font-size: x-large;
+  font-style: normal;
 }
 
-.h3 {
+h3 {
   font-family: Inter-Regular, Arial, Helvetica, sans-serif;
   font-size: larger;
+  font-style: normal;
 }
 
-.h4 {
+h4 {
   font-family: Inter-Regular, Arial, Helvetica, sans-serif;
   font-size: large;
+  font-style: normal;
 }
 
 p {
