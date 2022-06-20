@@ -95,22 +95,22 @@ footer {
   text-align: center;
 }
 
-h1 {
+.h1 {
   font-family: Inter-SemiBold, Arial, Helvetica, sans-serif;
   font-size: xx-large;
 }
 
-h2 {
+.h2 {
   font-family: Inter-Medium, Arial, Helvetica, sans-serif;
   font-size: x-large;
 }
 
-h3 {
+.h3 {
   font-family: Inter-Regular, Arial, Helvetica, sans-serif;
   font-size: larger;
 }
 
-h4 {
+.h4 {
   font-family: Inter-Regular, Arial, Helvetica, sans-serif;
   font-size: large;
 }
@@ -355,19 +355,19 @@ a {
     flex-direction: column-reverse;
   }
 
-  h1 {
+  .h1 {
     font-size: large;
   }
 
-  h2 {
+  .h2 {
     font-size: medium;
   }
 
-  h3 {
+  .h3 {
     font-size: small;
   }
 
-  h4 {
+  .h4 {
     font-size: small;
   }
 
