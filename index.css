@@ -263,19 +263,19 @@ a {
     height: 80%;
   }
 
-  h1 {
+  .h1 {
     font-size: x-large;
   }
 
-  h2 {
+  .h2 {
     font-size: larger;
   }
 
-  h3 {
+  .h3 {
     font-size: large;
   }
 
-  h4 {
+  .h4 {
     font-size: medium;
   }
 
@@ -309,19 +309,19 @@ a {
     flex-direction: column-reverse;
   }
 
-  h1 {
+  .h1 {
     font-size: x-large;
   }
 
-  h2 {
+  .h2 {
     font-size: larger;
   }
 
-  h3 {
+  .h3 {
     font-size: large;
   }
 
-  h4 {
+  .h4 {
     font-size: medium;
   }
 
