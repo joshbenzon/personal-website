@@ -1,377 +1,398 @@
 @font-face {
-  font-family: Inter-Thin;
-  src: local(Inter-Thin), url("./fonts/Inter-Thin.ttf") format("truetype");
+    font-family: Inter-Thin;
+    src: local(Inter-Thin), url("./fonts/Inter-Thin.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: Inter-ExtraLight;
-  src: local(Inter-ExtraLight),
-    url("./fonts/Inter-ExtraLight.ttf") format("truetype");
+    font-family: Inter-ExtraLight;
+    src: local(Inter-ExtraLight),
+        url("./fonts/Inter-ExtraLight.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: Inter-Light;
-  src: local(Inter-Light), url("./fonts/Inter-Light.ttf") format("truetype");
+    font-family: Inter-Light;
+    src: local(Inter-Light), url("./fonts/Inter-Light.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: Inter-Regular;
-  src: local(Inter-Regular), url("./fonts/Inter-Regular.ttf") format("truetype");
+    font-family: Inter-Regular;
+    src: local(Inter-Regular),
+        url("./fonts/Inter-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: Inter-Medium;
-  src: local(Inter-Medium), url("./fonts/Inter-Medium.ttf") format("truetype");
+    font-family: Inter-Medium;
+    src: local(Inter-Medium), url("./fonts/Inter-Medium.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: Inter-SemiBold;
-  src: local(Inter-SemiBold),
-    url("./fonts/Inter-SemiBold.ttf") format("truetype");
+    font-family: Inter-SemiBold;
+    src: local(Inter-SemiBold),
+        url("./fonts/Inter-SemiBold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: Inter-Bold;
-  src: local(Inter-Bold), url("./fonts/Inter-Bold.ttf") format("truetype");
+    font-family: Inter-Bold;
+    src: local(Inter-Bold), url("./fonts/Inter-Bold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: Inter-ExtraBold;
-  src: local(Inter-ExtraBold),
-    url("./fonts/Inter-ExtraBold.ttf") format("truetype");
+    font-family: Inter-ExtraBold;
+    src: local(Inter-ExtraBold),
+        url("./fonts/Inter-ExtraBold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: Inter-Black;
-  src: local(Inter-Black), url("./fonts/Inter-Black.ttf") format("truetype");
+    font-family: Inter-Black;
+    src: local(Inter-Black), url("./fonts/Inter-Black.ttf") format("truetype");
 }
 
 * {
-  font-family: Inter-Regular, Arial, Helvetica, sans-serif;
-  letter-spacing: normal;
+    font-family: Inter-Regular, Arial, Helvetica, sans-serif;
+    letter-spacing: normal;
 
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 
-  margin: 0%;
-  padding: 0%;
+    margin: 0%;
+    padding: 0%;
 }
 
 body {
-  /* DARK BLUE */
-  background-color: #112d4e;
+    /* DARK BLUE */
+    background-color: #112d4e;
 
-  /* BLUE */
-  background-color: #3f72af;
+    /* BLUE */
+    background-color: #3f72af;
 
-  /* LIGHT BLUE */
-  background-color: #dbe2ef;
+    /* LIGHT BLUE */
+    background-color: #dbe2ef;
 
-  /* WHITE */
-  background-color: #f9f7f7;
+    /* WHITE */
+    background-color: #f9f7f7;
 }
 
 header {
-  background: rgba(249, 247, 247, 0.875);
+    background: rgba(249, 247, 247, 0.875);
 
-  width: 100%;
-  height: 5%;
-  padding-bottom: 15px;
+    width: 100%;
+    height: 5%;
+    padding-bottom: 15px;
 
-  display: flex;
-  justify-content: center;
-  text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 footer {
-  background: rgba(249, 247, 247, 0.875);
-  color: #3f72af;
+    background: rgba(249, 247, 247, 0.875);
+    color: #3f72af;
 
-  width: 100%;
-  height: 5%;
-  padding-top: 15px;
+    width: 100%;
+    height: 5%;
+    padding-top: 15px;
 
-  display: flex;
-  justify-content: center;
-  text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .h1 {
-  font-family: Inter-SemiBold, Arial, Helvetica, sans-serif;
-  font-size: xx-large;
+    font-family: Inter-SemiBold, Arial, Helvetica, sans-serif;
+    font-size: xx-large;
 }
 
 .h2 {
-  font-family: Inter-Medium, Arial, Helvetica, sans-serif;
-  font-size: x-large;
+    font-family: Inter-Medium, Arial, Helvetica, sans-serif;
+    font-size: x-large;
 }
 
 .h3 {
-  font-family: Inter-Regular, Arial, Helvetica, sans-serif;
-  font-size: larger;
+    font-family: Inter-Regular, Arial, Helvetica, sans-serif;
+    font-size: larger;
 }
 
 .h4 {
-  font-family: Inter-Regular, Arial, Helvetica, sans-serif;
-  font-size: large;
+    font-family: Inter-Regular, Arial, Helvetica, sans-serif;
+    font-size: large;
 }
 
 p {
-  font-family: Inter-Regular, Arial, Helvetica, sans-serif;
-  font-size: large;
+    font-family: Inter-Regular, Arial, Helvetica, sans-serif;
+    font-size: large;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 #header-section {
-  padding: 15px;
+    padding: 15px;
 }
 
 #icon-pic {
-  color: #3f72af;
+    color: #3f72af;
 }
 
 #all-buttons {
-  padding-top: 5%;
-  padding-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 #social-buttons {
-  float: right;
+    float: right;
 }
 
 #navigation-link {
-  color: #3f72af;
-  transition: color 0.25s ease-out;
+    color: #3f72af;
+    transition: color 0.25s ease-out;
 }
 
 #navigation-link:hover {
-  color: black;
+    color: black;
 }
 
 #picture {
-  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.3);
 
-  height: 450px;
-  width: auto;
+    height: 450px;
+    width: auto;
 
-  margin-top: 7.5%;
-  margin-bottom: 7.5%;
+    margin-top: 7.5%;
+    margin-bottom: 7.5%;
 }
 
 #about,
 #experience,
 #projects,
 #skills {
-  position: relative;
-  display: flex;
+    position: relative;
+    display: flex;
 
-  align-items: center;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 #about-content,
 #experience-content,
 #projects-content,
 #skills-content {
-  width: 60%;
-  height: 60%;
-  padding: 2.5%;
+    width: 60%;
+    height: 60%;
+    padding: 2.5%;
 
-  flex-direction: row;
-  position: relative;
-  display: flex;
+    flex-direction: row;
+    position: relative;
+    display: flex;
 
-  align-items: center;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 #about-description,
 #experience-description,
 #projects-description,
 #skills-description {
-  padding: 2.5%;
+    padding: 2.5%;
 }
 
 #about-title,
 #experience-title,
 #projects-title,
 #skills-title {
-  padding-bottom: 2.5%;
+    padding-bottom: 2.5%;
 }
 
-#about-text,
+#about-text {
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
 #experience-text,
 #projects-text,
 #skills-text {
-  padding-top: 2.5%;
-  padding-bottom: 2.5%;
+    padding-top: 1.875%;
+    padding-bottom: 1.875%;
 }
 
 #about-inner,
 #experience-inner,
 #projects-inner,
 #skills-inner {
-  padding-bottom: 0.5%;
+    padding-bottom: 0.5%;
 }
 
 /* MINI DESKTOP VERSION 1.0 */
 @media screen and (max-width: 1200px) {
-  #picture {
-    height: 400px;
-    width: auto;
-  }
+    #picture {
+        height: 400px;
+        width: auto;
+    }
 
-  #about-content,
-  #experience-content,
-  #projects-content,
-  #skills-content {
-    width: 70%;
-    height: 70%;
-  }
+    #about-content,
+    #experience-content,
+    #projects-content,
+    #skills-content {
+        width: 70%;
+        height: 70%;
+    }
 }
 
 /* MINI DESKTOP VERSION 2.0 */
 @media screen and (max-width: 1000px) {
-  #picture {
-    height: 350px;
-    width: auto;
-  }
+    #picture {
+        height: 350px;
+        width: auto;
+    }
 
-  #about-content,
-  #experience-content,
-  #projects-content,
-  #skills-content {
-    width: 80%;
-    height: 80%;
-  }
+    #about-content,
+    #experience-content,
+    #projects-content,
+    #skills-content {
+        width: 80%;
+        height: 80%;
+    }
 }
 
 /* MINI DESKTOP VERSION 3.0 */
 @media screen and (max-width: 800px) {
-  #picture {
-    height: 300px;
-    width: auto;
-  }
+    #picture {
+        height: 300px;
+        width: auto;
+    }
 
-  #about-content,
-  #experience-content,
-  #projects-content,
-  #skills-content {
-    width: 80%;
-    height: 80%;
-  }
+    #about-content,
+    #experience-content,
+    #projects-content,
+    #skills-content {
+        width: 80%;
+        height: 80%;
+    }
 
-  .h1 {
-    font-size: x-large;
-  }
+    .h1 {
+        font-size: x-large;
+    }
 
-  .h2 {
-    font-size: larger;
-  }
+    .h2 {
+        font-size: larger;
+    }
 
-  .h3 {
-    font-size: large;
-  }
+    .h3 {
+        font-size: large;
+    }
 
-  .h4 {
-    font-size: medium;
-  }
+    .h4 {
+        font-size: medium;
+    }
 
-  p {
-    font-size: medium;
-  }
+    p {
+        font-size: medium;
+    }
 }
 
 /* MINI DESKTOP VERSION 4.0 */
 @media screen and (max-width: 700px) {
-  #picture {
-    height: 300px;
-    width: auto;
-  }
+    #picture {
+        height: 300px;
+        width: auto;
+    }
 
-  #about-content,
-  #experience-content,
-  #projects-content,
-  #skills-content {
-    width: 80%;
-    height: 80%;
-  }
+    #about-content,
+    #experience-content,
+    #projects-content,
+    #skills-content {
+        width: 80%;
+        height: 80%;
+    }
 
-  #about-content,
-  #projects-content {
-    flex-direction: column;
-  }
+    #about-content {
+        flex-direction: column-reverse;
+    }
 
-  #experience-content,
-  #skills-content {
-    flex-direction: column-reverse;
-  }
+    #experience-content,
+    #skills-content,
+    #projects-content {
+        flex-direction: column;
+    }
 
-  .h1 {
-    font-size: x-large;
-  }
+    #about-text,
+    #experience-text,
+    #projects-text,
+    #skills-text {
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+    }
 
-  .h2 {
-    font-size: larger;
-  }
+    .h1 {
+        font-size: x-large;
+    }
 
-  .h3 {
-    font-size: large;
-  }
+    .h2 {
+        font-size: larger;
+    }
 
-  .h4 {
-    font-size: medium;
-  }
+    .h3 {
+        font-size: large;
+    }
 
-  p {
-    font-size: medium;
-  }
+    .h4 {
+        font-size: medium;
+    }
+
+    p {
+        font-size: medium;
+    }
 }
 
 /* MOBILE VERSION */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  #picture {
-    height: 250px;
-    width: auto;
-  }
+    #picture {
+        height: 250px;
+        width: auto;
+    }
 
-  #about-content,
-  #experience-content,
-  #projects-content,
-  #skills-content {
-    width: 80%;
-    height: 80%;
-  }
+    #about-content,
+    #experience-content,
+    #projects-content,
+    #skills-content {
+        width: 80%;
+        height: 80%;
+    }
 
-  #about-content,
-  #projects-content {
-    flex-direction: column;
-  }
+    #about-content {
+        flex-direction: column-reverse;
+    }
 
-  #experience-content,
-  #skills-content {
-    flex-direction: column-reverse;
-  }
+    #experience-content,
+    #skills-content,
+    #projects-content {
+        flex-direction: column;
+    }
 
-  .h1 {
-    font-size: large;
-  }
+    #about-text,
+    #experience-text,
+    #projects-text,
+    #skills-text {
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+    }
 
-  .h2 {
-    font-size: medium;
-  }
+    .h1 {
+        font-size: large;
+    }
 
-  .h3 {
-    font-size: small;
-  }
+    .h2 {
+        font-size: medium;
+    }
 
-  .h4 {
-    font-size: small;
-  }
+    .h3 {
+        font-size: small;
+    }
 
-  p {
-    font-size: small;
-  }
+    .h4 {
+        font-size: small;
+    }
+
+    p {
+        font-size: small;
+    }
 }
