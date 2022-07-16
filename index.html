@@ -106,6 +106,9 @@
     </head>
 
     <body>
+        <!-- TOP OF PAGE -->
+        <a id="top"></a>
+
         <!-- HEADER -->
         <header>
             <div class="header-section">
@@ -133,23 +136,43 @@
             </div>
         </header>
 
-        <!-- HOME -->
-        <!-- <section id="home">
-            <span id="home-content">
-                <span id="home-description"> Hello! </span>
-            </span>
-        </section> -->
-
         <!-- ABOUT -->
         <section id="about">
             <div id="about-content">
                 <div id="about-description">
-                    <p class="h1" id="about-title">
-                        <i id="icon-pic" class="fa-solid fa-yin-yang"></i>
-                        About
-                    </p>
+                    <p id="home-description">Hey hey! My Name is</p>
+                    <p id="home-title">Josh Benzon</p>
 
                     <p id="about-text">
+                        I'm a rising junior at
+                        <a
+                            class="navigation-link"
+                            target="_blank"
+                            href="https://www.brown.edu/"
+                        >
+                            Brown University
+                        </a>
+                        studying Computer Science with a focus on software,
+                        graphics, and design. Along with being an avid
+                        researcher in positive psychology, my passions lie in
+                        software engineering, UI/UX design, and web
+                        applications. In my free time, you can find me swimming,
+                        drawing cartoons, listening to
+                        <a
+                            class="navigation-link"
+                            target="_blank"
+                            href="https://itzy.jype.com/"
+                        >
+                            K-Pop</a
+                        >, or watching K-Dramas (usually with a boba in hand).
+                    </p>
+
+                    <!-- <p class="h1" id="about-title">
+                        <i id="icon-pic" class="fa-solid fa-yin-yang"></i>
+                        About
+                    </p> -->
+
+                    <!-- <p id="about-text">
                         My name is Josh Benzon (he/him), and I'm a rising junior
                         at
                         <a
@@ -179,7 +202,7 @@
                         >
                             K-Pop</a
                         >, or watching K-Dramas (usually with a boba in hand).
-                    </p>
+                    </p> -->
 
                     <div id="all-buttons">
                         <a
@@ -248,7 +271,7 @@
                         Experience
                     </p>
 
-                    <div id="experience-text">
+                    <div id="experience-container">
                         <p class="h2" id="experience-inner">
                             Undergraduate Teaching Assistant
                             <a
@@ -275,7 +298,7 @@
                         </p>
                     </div>
 
-                    <div id="experience-text">
+                    <div id="experience-container">
                         <p class="h2" id="experience-inner">
                             Independent Researcher
                             <a
@@ -315,7 +338,7 @@
                         Projects
                     </p>
 
-                    <div id="projects-text">
+                    <div id="projects-container">
                         <p class="h2" id="projects-inner">
                             Blueno Bills
                             <a
@@ -341,7 +364,7 @@
                         </p>
                     </div>
 
-                    <div id="projects-text">
+                    <div id="projects-container">
                         <p class="h2" id="projects-inner">
                             Inside Out: Emotion Recognition
                             <a
@@ -377,26 +400,26 @@
                         Skills
                     </p>
 
-                    <div id="skills-text">
+                    <div id="skills-container">
                         <p class="h2" id="skills-inner">Coding</p>
-                        <p>
+                        <p id="skills-text">
                             Python, Java, React, HTML/CSS, TypeScript/JavaScript
                         </p>
                     </div>
 
-                    <div id="skills-text">
+                    <div id="skills-container">
                         <p class="h2" id="skills-inner">Tools</p>
-                        <p>Git, Figma, Numpy, Canva</p>
+                        <p id="skills-text">Git, Figma, Numpy, Canva</p>
                     </div>
 
-                    <div id="skills-text">
+                    <div id="skills-container">
                         <p class="h2" id="skills-inner">Other</p>
-                        <p>Prototyping, Video Editing</p>
+                        <p id="skills-text">Prototyping, Video Editing</p>
                     </div>
 
-                    <div id="skills-text">
+                    <div id="skills-container">
                         <p class="h2" id="skills-inner">Coursework</p>
-                        <p>
+                        <p id="skills-text">
                             Software Engineering, Computer Vision, Data
                             Structures and Algorithms, Object-Oriented
                             Programming, Discrete Structures and Probability,
@@ -410,7 +433,9 @@
 
         <!-- FOOTER -->
         <footer>
-            <p class="h3">designed & built by josh benzon © 2022</p>
+            <a class="navigation-link" href="#top">
+                <p class="h3">designed & built by josh benzon © 2022</p>
+            </a>
         </footer>
     </body>
 </html>

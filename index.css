@@ -156,64 +156,6 @@ a {
     color: black;
 }
 
-#home-content {
-    padding: 2.5%;
-    flex-direction: row;
-
-    position: relative;
-    display: flex;
-}
-
-#home-description {
-    font-family: Inter-Bold, Arial, Helvetica, sans-serif;
-    font-size: xx-large;
-
-    color: #3f72af;
-    border-right: 2.5px solid #3f72af;
-
-    overflow: hidden;
-    display: flex;
-
-    animation: typewriter 2.5s steps(7) infinite, blinking-cursor 0.5s infinite;
-    animation-fill-mode: forwards;
-}
-
-@keyframes typewriter {
-    0% {
-        width: 0;
-    }
-    25% {
-        width: 70%;
-    }
-    48% {
-        width: 100%;
-    }
-    50% {
-        width: 100%;
-    }
-    55% {
-        width: 100%;
-    }
-    75% {
-        width: 70%;
-    }
-    85% {
-        width: 30%;
-    }
-    100% {
-        width: 0;
-    }
-}
-
-@keyframes blinking-cursor {
-    from {
-        border-color: transparent;
-    }
-    to {
-        border-color: black;
-    }
-}
-
 #picture {
     box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.25);
 
@@ -224,7 +166,19 @@ a {
     margin-bottom: 7.5%;
 }
 
-#home,
+#home-description {
+    font-family: Inter-Medium, Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+#home-title {
+    font-family: Inter-Bold, Arial, Helvetica, sans-serif;
+    font-size: 3em;
+
+    padding-bottom: 2.5%;
+    color: #3f72af;
+}
+
 #about,
 #experience,
 #projects,
@@ -266,16 +220,30 @@ a {
     padding-bottom: 2.5%;
 }
 
+#experience-container,
+#projects-container,
+#skills-container {
+    padding-top: 1.875%;
+    padding-bottom: 1.875%;
+}
+
 #about-text {
     padding-top: 2.5%;
     padding-bottom: 2.5%;
+
+    color: #444444;
 }
 
 #experience-text,
-#projects-text,
-#skills-text {
+#projects-text {
     padding-top: 1.875%;
     padding-bottom: 1.875%;
+
+    color: #444444;
+}
+
+#skills-text {
+    color: #444444;
 }
 
 #about-inner,
@@ -322,6 +290,14 @@ a {
     #picture {
         height: 300px;
         width: auto;
+    }
+
+    #home-description {
+        font-size: 1.125em;
+    }
+
+    #home-title {
+        font-size: 2.25em;
     }
 
     #about-content,
