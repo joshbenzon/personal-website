@@ -69,6 +69,12 @@ body {
 
     /* WHITE */
     background-color: #f9f7f7;
+
+    /* DARK GREY */
+    color: #393e46;
+
+    /* BLACK */
+    color: #222831;
 }
 
 header {
@@ -168,7 +174,7 @@ a {
 }
 
 .navigation-link:hover {
-    color: black;
+    color: #222831;
 }
 
 #picture {
@@ -233,7 +239,7 @@ a {
     padding-top: 2.5%;
     padding-bottom: 2.5%;
 
-    color: #444444;
+    color: #393e46;
 }
 
 #experience-text,
@@ -241,11 +247,11 @@ a {
     padding-top: 1.875%;
     padding-bottom: 1.875%;
 
-    color: #444444;
+    color: #393e46;
 }
 
 #skills-text {
-    color: #444444;
+    color: #393e46;
 }
 
 #about-inner,
