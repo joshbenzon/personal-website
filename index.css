@@ -185,6 +185,8 @@ a {
 
     margin-top: 7.5%;
     margin-bottom: 7.5%;
+
+    border-radius: 10px;
 }
 
 #about,
@@ -229,7 +231,22 @@ a {
 }
 
 #experience-container,
-#projects-container,
+#projects-container {
+    padding-top: 1.875%;
+    padding-bottom: 1.875%;
+
+    /* NEW */
+
+    /* margin-top: 1.875%;
+    margin-bottom: 1.875%; */
+
+    /* background-color: #3f72af; */
+
+    /* padding: 5%;
+    border-style: solid;
+    border-color: aquamarine; */
+}
+
 #skills-container {
     padding-top: 1.875%;
     padding-bottom: 1.875%;
@@ -459,4 +476,35 @@ a {
     p {
         font-size: small;
     }
+}
+
+/* NEW */
+.card {
+    flex-direction: column;
+    flex-basis: 300px;
+    /* flex-shrink: 0;
+    flex-grow: 0; */
+
+    display: flex;
+
+    max-width: 100%;
+    background-color: #fff;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem;
+}
+
+.card-image {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.card-image img {
+    position: absolute;
+    width: 100%;
+}
+
+.card-body {
+    padding: 5%;
 }
