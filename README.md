@@ -1,4 +1,4 @@
-# Josh Benzon | Personal Website
+# Josh Benzon | Personal Website 🫐
 
 _Written in Vanilla HTML/CSS_ & _Deployed with GitHub Pages_
 
